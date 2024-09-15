@@ -1,0 +1,52 @@
+.editor-container {
+    display: flex;
+    height: 100vh;
+}
+
+.editor-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    /* Reduced width */
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fetch-url {
+    padding: 10px 20px;
+    background-color: rgb(64, 159, 162);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fetch-url:hover {
+    background-color: rgb(2, 67, 70);
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.file-text{
+    display: flex;
+    gap: 30px;
+}
+
+span{
+    color: crimson;
+    /* color: rgb(64, 159, 162); */
+}
